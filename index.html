@@ -11,33 +11,42 @@
 <body>
     <header class="header">
         <div class="header-logo">
-            <img src="http://via.placeholder.com/50x50" alt="logo" class="header-img"/>
+
+            <img src="img/dev1.jpg" alt="logo" class="header-img responsive-img"/>
         </div>
         <div class="header-text">
-            <h1 class="header-name">Robert Carroll</h1>
-            <p class="header-title">Front-End Developer</p>
-        </div>
-        <hr>
+            <h1 class="header-name text-hdr">Robert Carroll</h1>
+            <p class="header-title text-item">Front-End Developer</p>
+        </div>    
     </header>
+
     <main class="content">
-        <img src="http://via.placeholder.com/480x250" alt="main image" class="hero-img" />
+        <img srcset="img/meetings-sm.jpg 480w, img/meetings-md.jpg 960w, img/meetings-lg.jpg 1230w"
+            sizes="100vw" 
+            src="img/meetings-lg" alt="tower image" class="hero-img responsive-img" />
         <section class="featured-work">
-            <h2>Featured Work</h2>
-            <div class="featured-wrapper">
+            <h2 class="content-hdr text-hdr">Featured Work</h2>
+            <div class="featured">
                 <div class="featured-item">
-                    <img src="#" alt="project 1"/>
-                    <h3>Project Title</h3>
-                    <a href="#">github repo address1</a>
+                    <img src="img/businessman-1440.jpg" alt="project 1 img" class="featured-img responsive-img" />
+                    <h3 class="featured-header text-hdr">Project #1</h3>
+                    <p class="featured-text">
+                        <a href="#" class="featured-link">github repo address1</a>
+                    </p>
                 </div>
                 <div class="featured-item">
-                    <img src="#" alt="project 2"/>
-                    <h3>Project Title</h3>
-                    <a href="#">github repo address2</a>
+                    <img src="img/technology-1440.jpg" alt="project 2 img" class="featured-img responsive-img" />
+                    <h3 class="featured-header text-hdr">Project #2</h3>
+                    <p class="featured-text">
+                        <a href="#" class="featured-link">github repo address2</a>
+                    </p>
                 </div>
                 <div class="featured-item">
-                    <img src="#" alt="project 3"/>
-                    <h3>Project Title</h3>
-                    <a href="#">github repo address3</a>
+                    <img src="img/man-1440.jpg" alt="project 3 img" class="featured-img responsive-img" />
+                    <h3 class="featured-header text-hdr">Project #3</h3>
+                    <p class="featured-text">
+                        <a href="#" class="featured-link">github repo address3</a>
+                    </p>
                 </div>
             </div>
         </section>
